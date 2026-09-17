@@ -1,9 +1,9 @@
 ---
-name: cold-execution-campaign
+name: execution-outreach-campaign
 description: Use this when the cold list exists and the emails have to go into Instantly, or when the founder asks if they may press Launch. They say "Build my cold campaign.", "write my cold emails", "add this week's 50 to the campaign", "Is my mailbox ready?", "can I launch yet", or hand over a warmup file ("Is my mailbox ready? Read <file>.csv"). It writes 3 short emails off squad/business.md, builds 1 Instantly campaign as a Draft off squad/cold-list.csv through the founder's own connector, adds every new batch, and answers Ready or Not yet by Instantly's own rule. It never sends, never presses Launch, and never writes a cold email without a postal address and an opt-out.
 ---
 
-# Cold Execution · The Campaign
+# execution-outreach-campaign
 
 1 output: 1 Instantly campaign, 3 emails, built as a Draft through the founder's connector. The founder
 presses Launch.
@@ -19,7 +19,7 @@ agent folder came without its `references/`, and stop.
 ## Read and write
 
 - `squad/business.md`: WHO line 1, THE SENTENCE, THE PROBLEM, THE SHAPE, BUYER WORDS. Missing: say
-  "Run /the-winning-offer first. Your emails are built off that page." and stop.
+  "Run /execution-genesis-offer first. Your emails are built off that page." and stop.
 - `squad/cold-list.csv`, every row. Missing on "Build my cold campaign.": say "Say Build my outreach list. first."
   and stop.
 - `squad/outreach-read.md`, when it exists: only its newest `Change:` line.

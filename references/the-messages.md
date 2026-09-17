@@ -21,9 +21,9 @@ They go into the campaign as its 3 steps, and nowhere else.
 
 ## The free thing, off THE SHAPE
 
-It is what `/the-demo` builds for a real business. The ask names it in plain words.
+It is what `/execution-genesis-demo` builds for a real business. The ask names it in plain words.
 
-| THE SHAPE | What /the-demo builds | The free thing, said in the email |
+| THE SHAPE | What /execution-genesis-demo builds | The free thing, said in the email |
 |---|---|---|
 | website | 1 phone-first homepage with their real details | a free demo of a new homepage |
 | content | a small set of posts and 1 short video in their look | a free set of posts and a short video in your look |

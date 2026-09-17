@@ -124,9 +124,9 @@ Ready, and the campaign still reads Draft, adds the Launch block: the Launch lin
 ```
 Press Launch on <campaign name> in Instantly yourself.
 When a reply says yes:
-1. /the-demo <Company name>, <Website> off that row of squad/cold-list.csv, or his Instagram link when you sell content.
-2. Record a Loom of the demo, under 2 minutes, your face on, and give /the-demo the link.
-3. /the-close. THE MESSAGE is rewritten for him, with the Loom and your booking link.
+1. /execution-genesis-demo <Company name>, <Website> off that row of squad/cold-list.csv, or his Instagram link when you sell content.
+2. Record a Loom of the demo, under 2 minutes, your face on, and give /execution-genesis-demo the link.
+3. /execution-genesis-close. THE MESSAGE is rewritten for him, with the Loom and your booking link.
 4. Fill anything still in square brackets, like his first name, off his reply. Then send THE MESSAGE yourself, as your reply in that same Instantly thread.
 The call runs off squad/sales.md.
 Next, on Sunday once it sends: Read my batch.

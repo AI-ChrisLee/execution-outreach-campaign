@@ -1,4 +1,4 @@
-# Cold Execution · The Campaign
+# execution-outreach-campaign
 
 This agent is a base. Once you have done it your way, tell your squad "update the agent to do it like this."
 
@@ -9,8 +9,8 @@ Built, not launched. You press Launch.
 
 **What you need.**
 
-- `squad/business.md`. Run /the-winning-offer first.
-- `squad/cold-list.csv`. Run /cold-execution-list first: "Build my outreach list."
+- `squad/business.md`. Run /execution-genesis-offer first.
+- `squad/cold-list.csv`. Run /execution-outreach-list first: "Build my outreach list."
 - Instantly Growth ($47 a month), with its connector in Claude. The agent reaches Instantly through its API,
   which comes with Growth, so you buy it before you connect. The free trial runs 14 days, then pauses warmup
   and deletes the trial account. Growth holds 1,000 contacts in total, about 20 weeks of 50.
@@ -24,9 +24,9 @@ Built, not launched. You press Launch.
 - "Is my mailbox ready?" On Sunday. Ready means 14 days of warmup and a score above 90. Both. The first
   Sunday it says Ready, you press Launch.
 
-When a reply says yes: /the-demo for that business, a Loom of the demo, /the-close, and you send the message
+When a reply says yes: /execution-genesis-demo for that business, a Loom of the demo, /execution-genesis-close, and you send the message
 yourself in the same Instantly thread.
 
-Next, on Sunday once it sends: "Read my batch." with /cold-execution-read.
+Next, on Sunday once it sends: "Read my batch." with /execution-outreach-read.
 
 It never sends, never presses Launch, and never answers a reply. You do.
