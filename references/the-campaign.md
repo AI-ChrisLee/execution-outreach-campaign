@@ -71,8 +71,11 @@ Off `squad/cold-list.csv`, written by "Build my outreach list.", header
 `Email,Company name,Website,Phone,Reviews,City,Zip code,Batch`.
 
 - `campaign_id` the campaign's id, `skip_if_in_workspace` true. Never `list_id`: leads in a list send nothing.
-- 1 lead a row: `email`, `company_name`, `website`, `phone`, and `custom_variables`
-  `{"Reviews": <Reviews>, "City": <City>, "Batch": <Batch>}`.
+- 1 lead a row: `email`, `company_name`, `website`, `phone`, `first_name` = `Owner` when the row has
+  one, and `custom_variables`
+  `{"Reviews": <Reviews>, "City": <City>, "Batch": <Batch>, "Note": <Note>, "Rating": <Rating>}`.
+- A row with no `Note` (a list written before the column existed, or a blank): `Note` is written as
+  `You have <Reviews> Google reviews in <City>.`, so `{{Note}}` never merges empty.
 - `Batch` is what lets "Read my batch." count each batch in people.
 
 ## The read-back

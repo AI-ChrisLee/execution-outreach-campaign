@@ -2,8 +2,15 @@
 
 This agent is a base. Once you have done it your way, tell your squad "update the agent to do it like this."
 
-It writes 3 short emails off your offer page and builds your Instantly campaign off `squad/cold-list.csv`.
-Built, not launched. You press Launch.
+Agent 5. It writes 3 short emails off your offer page and builds your Instantly campaign off
+`squad/cold-list.csv`. Built, not launched. You press Launch.
+
+**The 3 emails.** Email 1 opens on the 1 line Agent 4 read off that business's own site, in their
+own words, so no 2 people get the same first line. Then 1 plain line about the problem businesses
+like theirs have, off your offer page, and the ask: would it be okay if I made you the free thing.
+Just say yes. Under 80 words, no price, no call, no link. Email 2, 3 days later, gives 1 new reason
+in your buyer's words. Email 3, 5 days after that, closes the door. Every one carries your postal
+address and a working opt-out.
 
 **Install.** Installed with the one line on aichrislee.com/free. Then quit and reopen Claude Code once.
 
@@ -18,9 +25,9 @@ Built, not launched. You press Launch.
 
 **Run it.**
 
-- "Build my cold campaign." 3 emails, a wait of 3 days, then 5 days, asking if you can make them something
-  free. Change any word, say yes, and it builds the campaign in Instantly. Every week after that, the same line
-  adds the new 50 to the same campaign.
+- "Build my cold campaign." It prints the 3 emails. Change any word, say yes, and it builds the campaign in
+  Instantly, every lead carrying its own opening line. Every week after that, the same line adds the new
+  50 to the same campaign.
 - "Is my mailbox ready?" On Sunday. Ready means 14 days of warmup and a score above 90. Both. The first
   Sunday it says Ready, you press Launch.
 

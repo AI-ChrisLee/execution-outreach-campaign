@@ -10,8 +10,11 @@ They go into the campaign as its 3 steps, and nowhere else.
   about any business on the list.
 - Email 1 under 80 words, the footer not counted.
 - No price. No call ask. No link, no attachment, no image.
-- The only merge fields are `{{Reviews}}` and `{{City}}`, spelled with that case. They match the lead's
-  custom variables, and `{{reviews}}` merges nothing.
+- The only merge fields are `{{Note}}`, `{{Reviews}}` and `{{City}}`, spelled with that case. They match
+  the lead's custom variables, and `{{reviews}}` merges nothing. `{{Note}}` is a whole sentence the list
+  read off that business's own site (`Your site says "family owned since 1998".`), or the reviews line
+  when the site gave nothing. It is the 1 line in the email only this business could get, so it goes
+  first and nothing is written around it.
 - The problem is said about businesses like theirs, never as a fact about this one. A scrape cannot see what
   a business needs.
 - Never a moment the founder did not have ("a dentist told me last week"), and never a crowd made out of 1
@@ -42,7 +45,7 @@ The subject is the free thing in 2 to 5 words, lowercase except AI, and it keeps
 ```
 Subject: <the free thing, 2 to 5 words>
 
-You have {{Reviews}} Google reviews in {{City}}.
+{{Note}}
 
 <1 plain line off THE PROBLEM, about businesses like theirs, naming the part THE SENTENCE fixes (for an AI receptionist, the phones), under 25 words. A line that only describes their day, with no pain in it, is not a problem line. THE PROBLEM holds no pain (a need or advice): write what a business like theirs loses without the part THE SENTENCE fixes, in plain words, with no number and no "most" (the call goes to the next dentist), never a vague cost like "gets in the way".>
 
